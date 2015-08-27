@@ -10,5 +10,5 @@ def test_float_mean():
 test_float_mean()
 
 def test_mean():
-	assert(mean[4,8]) == 6)
+	assert(mean([4,8]) == 6)
 test_mean()
