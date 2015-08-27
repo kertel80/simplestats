@@ -5,9 +5,14 @@ def mean(vals):
 	return total/length
 
 def std(vals):
-	if len(vals) == 0:
-		return 0.0
-	return vals[-1] / 2.0
+	n = len(Vals_
+        if n == 0:
+	    return 0.0
+	mu = sum(vals)/n
+	var = 0.0
+	for val in vals:
+	    var = var + (val-mu)**2
+	return (var/n)**0.5
 
 
 # print mean([2,4])
